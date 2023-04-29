@@ -1,0 +1,824 @@
+15/3/2023 -- 18:45:42 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+15/3/2023 -- 18:45:42 - <Info> - CPUs/cores online: 2
+15/3/2023 -- 18:45:42 - <Info> - Found an MTU of 1500 for 'hp_core'
+15/3/2023 -- 18:45:42 - <Info> - Found an MTU of 1500 for 'hp_core'
+15/3/2023 -- 18:45:42 - <Info> - dropped the caps for main thread
+15/3/2023 -- 18:45:42 - <Info> - fast output device (regular) initialized: fast.log
+15/3/2023 -- 18:45:42 - <Info> - eve-log output device (regular) initialized: eve.json
+15/3/2023 -- 18:45:42 - <Info> - stats output device (regular) initialized: stats.log
+15/3/2023 -- 18:45:42 - <Info> - Running in live mode, activating unix socket
+15/3/2023 -- 18:45:42 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+15/3/2023 -- 18:45:42 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+15/3/2023 -- 18:45:42 - <Info> - Threshold config parsed: 0 rule(s) found
+15/3/2023 -- 18:45:42 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+15/3/2023 -- 18:45:42 - <Info> - Going to use 2 thread(s)
+15/3/2023 -- 18:45:42 - <Info> - Running in live mode, activating unix socket
+15/3/2023 -- 18:45:42 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+15/3/2023 -- 18:45:42 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+15/3/2023 -- 18:45:42 - <Info> - All AFP capture threads are running.
+15/3/2023 -- 18:57:45 - <Notice> - Signal Received.  Stopping engine.
+15/3/2023 -- 18:57:57 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+15/3/2023 -- 18:57:57 - <Info> - CPUs/cores online: 2
+15/3/2023 -- 18:57:57 - <Info> - Found an MTU of 1500 for 'hp_core'
+15/3/2023 -- 18:57:57 - <Info> - Found an MTU of 1500 for 'hp_core'
+15/3/2023 -- 18:57:57 - <Info> - dropped the caps for main thread
+15/3/2023 -- 18:57:57 - <Info> - fast output device (regular) initialized: fast.log
+15/3/2023 -- 18:57:57 - <Info> - eve-log output device (regular) initialized: eve.json
+15/3/2023 -- 18:57:57 - <Info> - stats output device (regular) initialized: stats.log
+15/3/2023 -- 18:57:57 - <Info> - Running in live mode, activating unix socket
+15/3/2023 -- 18:57:57 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+15/3/2023 -- 18:57:57 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+15/3/2023 -- 18:57:57 - <Info> - Threshold config parsed: 0 rule(s) found
+15/3/2023 -- 18:57:57 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+15/3/2023 -- 18:57:57 - <Info> - Going to use 2 thread(s)
+15/3/2023 -- 18:57:57 - <Info> - Running in live mode, activating unix socket
+15/3/2023 -- 18:57:57 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+15/3/2023 -- 18:57:57 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+15/3/2023 -- 18:57:57 - <Info> - All AFP capture threads are running.
+16/3/2023 -- 09:19:04 - <Notice> - Signal Received.  Stopping engine.
+16/3/2023 -- 09:19:05 - <Info> - time elapsed 51667.762s
+16/3/2023 -- 09:19:05 - <Info> - Alerts: 0
+16/3/2023 -- 09:19:05 - <Info> - cleaning up signature grouping structure... complete
+16/3/2023 -- 09:19:05 - <Notice> - Stats for 'hp_core':  pkts: 2043, drop: 0 (0.00%), invalid chksum: 0
+17/3/2023 -- 12:34:43 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+17/3/2023 -- 12:34:43 - <Info> - CPUs/cores online: 2
+17/3/2023 -- 12:34:43 - <Info> - Found an MTU of 1500 for 'hp_core'
+17/3/2023 -- 12:34:43 - <Info> - Found an MTU of 1500 for 'hp_core'
+17/3/2023 -- 12:34:43 - <Info> - dropped the caps for main thread
+17/3/2023 -- 12:34:43 - <Info> - fast output device (regular) initialized: fast.log
+17/3/2023 -- 12:34:43 - <Info> - eve-log output device (regular) initialized: eve.json
+17/3/2023 -- 12:34:43 - <Info> - stats output device (regular) initialized: stats.log
+17/3/2023 -- 12:34:43 - <Info> - Running in live mode, activating unix socket
+17/3/2023 -- 12:34:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+17/3/2023 -- 12:34:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+17/3/2023 -- 12:34:43 - <Info> - Threshold config parsed: 0 rule(s) found
+17/3/2023 -- 12:34:43 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+17/3/2023 -- 12:34:43 - <Info> - Going to use 2 thread(s)
+17/3/2023 -- 12:34:43 - <Info> - Running in live mode, activating unix socket
+17/3/2023 -- 12:34:43 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+17/3/2023 -- 12:34:43 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+17/3/2023 -- 12:34:43 - <Info> - All AFP capture threads are running.
+17/3/2023 -- 12:36:14 - <Notice> - Signal Received.  Stopping engine.
+17/3/2023 -- 12:36:14 - <Info> - time elapsed 90.933s
+17/3/2023 -- 12:36:15 - <Info> - Alerts: 0
+17/3/2023 -- 12:36:15 - <Info> - cleaning up signature grouping structure... complete
+17/3/2023 -- 12:36:15 - <Notice> - Stats for 'hp_core':  pkts: 29, drop: 0 (0.00%), invalid chksum: 0
+30/3/2023 -- 08:46:49 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+30/3/2023 -- 08:46:49 - <Info> - CPUs/cores online: 2
+30/3/2023 -- 08:46:49 - <Info> - Found an MTU of 1500 for 'hp_core'
+30/3/2023 -- 08:46:49 - <Info> - Found an MTU of 1500 for 'hp_core'
+30/3/2023 -- 08:46:49 - <Info> - dropped the caps for main thread
+30/3/2023 -- 08:46:49 - <Info> - fast output device (regular) initialized: fast.log
+30/3/2023 -- 08:46:49 - <Info> - eve-log output device (regular) initialized: eve.json
+30/3/2023 -- 08:46:49 - <Info> - stats output device (regular) initialized: stats.log
+30/3/2023 -- 08:46:49 - <Info> - Running in live mode, activating unix socket
+30/3/2023 -- 08:46:49 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+30/3/2023 -- 08:46:49 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+30/3/2023 -- 08:46:49 - <Info> - Threshold config parsed: 0 rule(s) found
+30/3/2023 -- 08:46:49 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+30/3/2023 -- 08:46:49 - <Info> - Going to use 2 thread(s)
+30/3/2023 -- 08:46:50 - <Info> - Running in live mode, activating unix socket
+30/3/2023 -- 08:46:50 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+30/3/2023 -- 08:46:50 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+30/3/2023 -- 08:46:50 - <Info> - All AFP capture threads are running.
+30/3/2023 -- 08:49:17 - <Notice> - Signal Received.  Stopping engine.
+30/3/2023 -- 08:49:17 - <Info> - time elapsed 147.669s
+30/3/2023 -- 08:49:18 - <Info> - Alerts: 0
+30/3/2023 -- 08:49:18 - <Info> - cleaning up signature grouping structure... complete
+30/3/2023 -- 08:49:18 - <Notice> - Stats for 'hp_core':  pkts: 36, drop: 0 (0.00%), invalid chksum: 0
+30/3/2023 -- 11:15:31 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+30/3/2023 -- 11:15:31 - <Info> - CPUs/cores online: 2
+30/3/2023 -- 11:15:31 - <Info> - Found an MTU of 1500 for 'hp_core'
+30/3/2023 -- 11:15:31 - <Info> - Found an MTU of 1500 for 'hp_core'
+30/3/2023 -- 11:15:32 - <Info> - dropped the caps for main thread
+30/3/2023 -- 11:15:32 - <Info> - fast output device (regular) initialized: fast.log
+30/3/2023 -- 11:15:32 - <Info> - eve-log output device (regular) initialized: eve.json
+30/3/2023 -- 11:15:32 - <Info> - stats output device (regular) initialized: stats.log
+30/3/2023 -- 11:15:32 - <Info> - Running in live mode, activating unix socket
+30/3/2023 -- 11:15:32 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+30/3/2023 -- 11:15:32 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+30/3/2023 -- 11:15:32 - <Info> - Threshold config parsed: 0 rule(s) found
+30/3/2023 -- 11:15:32 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+30/3/2023 -- 11:15:32 - <Info> - Going to use 2 thread(s)
+30/3/2023 -- 11:15:32 - <Info> - Running in live mode, activating unix socket
+30/3/2023 -- 11:15:32 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+30/3/2023 -- 11:15:32 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+30/3/2023 -- 11:15:32 - <Info> - All AFP capture threads are running.
+30/3/2023 -- 11:17:07 - <Notice> - Signal Received.  Stopping engine.
+30/3/2023 -- 11:17:08 - <Info> - time elapsed 96.251s
+30/3/2023 -- 11:17:09 - <Info> - Alerts: 0
+30/3/2023 -- 11:17:09 - <Info> - cleaning up signature grouping structure... complete
+30/3/2023 -- 11:17:09 - <Notice> - Stats for 'hp_core':  pkts: 33, drop: 0 (0.00%), invalid chksum: 0
+30/3/2023 -- 12:07:16 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+30/3/2023 -- 12:07:16 - <Info> - CPUs/cores online: 2
+30/3/2023 -- 12:07:16 - <Info> - Found an MTU of 1500 for 'hp_core'
+30/3/2023 -- 12:07:16 - <Info> - Found an MTU of 1500 for 'hp_core'
+30/3/2023 -- 12:07:17 - <Info> - dropped the caps for main thread
+30/3/2023 -- 12:07:17 - <Info> - fast output device (regular) initialized: fast.log
+30/3/2023 -- 12:07:17 - <Info> - eve-log output device (regular) initialized: eve.json
+30/3/2023 -- 12:07:17 - <Info> - stats output device (regular) initialized: stats.log
+30/3/2023 -- 12:07:17 - <Info> - Running in live mode, activating unix socket
+30/3/2023 -- 12:07:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+30/3/2023 -- 12:07:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+30/3/2023 -- 12:07:17 - <Info> - Threshold config parsed: 0 rule(s) found
+30/3/2023 -- 12:07:17 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+30/3/2023 -- 12:07:17 - <Info> - Going to use 2 thread(s)
+30/3/2023 -- 12:07:17 - <Info> - Running in live mode, activating unix socket
+30/3/2023 -- 12:07:17 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+30/3/2023 -- 12:07:17 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+30/3/2023 -- 12:07:17 - <Info> - All AFP capture threads are running.
+30/3/2023 -- 12:11:39 - <Notice> - Signal Received.  Stopping engine.
+30/3/2023 -- 12:11:40 - <Info> - time elapsed 263.220s
+30/3/2023 -- 12:11:41 - <Info> - Alerts: 0
+30/3/2023 -- 12:11:41 - <Info> - cleaning up signature grouping structure... complete
+30/3/2023 -- 12:11:41 - <Notice> - Stats for 'hp_core':  pkts: 71, drop: 0 (0.00%), invalid chksum: 0
+2/4/2023 -- 07:20:17 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+2/4/2023 -- 07:20:17 - <Info> - CPUs/cores online: 2
+2/4/2023 -- 07:20:18 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 07:20:18 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 07:20:18 - <Info> - dropped the caps for main thread
+2/4/2023 -- 07:20:18 - <Info> - fast output device (regular) initialized: fast.log
+2/4/2023 -- 07:20:18 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2023 -- 07:20:18 - <Info> - stats output device (regular) initialized: stats.log
+2/4/2023 -- 07:20:18 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 07:20:18 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+2/4/2023 -- 07:20:18 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+2/4/2023 -- 07:20:18 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2023 -- 07:20:18 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+2/4/2023 -- 07:20:18 - <Info> - Going to use 2 thread(s)
+2/4/2023 -- 07:20:18 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 07:20:18 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+2/4/2023 -- 07:20:18 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+2/4/2023 -- 07:20:18 - <Info> - All AFP capture threads are running.
+2/4/2023 -- 07:22:14 - <Notice> - Signal Received.  Stopping engine.
+2/4/2023 -- 07:22:14 - <Info> - time elapsed 116.335s
+2/4/2023 -- 07:22:15 - <Info> - Alerts: 0
+2/4/2023 -- 07:22:15 - <Info> - cleaning up signature grouping structure... complete
+2/4/2023 -- 07:22:15 - <Notice> - Stats for 'hp_core':  pkts: 31, drop: 0 (0.00%), invalid chksum: 0
+2/4/2023 -- 14:06:43 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+2/4/2023 -- 14:06:43 - <Info> - CPUs/cores online: 2
+2/4/2023 -- 14:06:43 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 14:06:43 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 14:06:43 - <Info> - dropped the caps for main thread
+2/4/2023 -- 14:06:43 - <Info> - fast output device (regular) initialized: fast.log
+2/4/2023 -- 14:06:43 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2023 -- 14:06:43 - <Info> - stats output device (regular) initialized: stats.log
+2/4/2023 -- 14:06:43 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 14:06:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+2/4/2023 -- 14:06:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+2/4/2023 -- 14:06:43 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2023 -- 14:06:43 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+2/4/2023 -- 14:06:43 - <Info> - Going to use 2 thread(s)
+2/4/2023 -- 14:06:43 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 14:06:43 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+2/4/2023 -- 14:06:43 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+2/4/2023 -- 14:06:43 - <Info> - All AFP capture threads are running.
+2/4/2023 -- 14:10:12 - <Notice> - Signal Received.  Stopping engine.
+2/4/2023 -- 14:10:12 - <Info> - time elapsed 209.148s
+2/4/2023 -- 14:10:13 - <Info> - Alerts: 0
+2/4/2023 -- 14:10:13 - <Info> - cleaning up signature grouping structure... complete
+2/4/2023 -- 14:10:13 - <Notice> - Stats for 'hp_core':  pkts: 46, drop: 0 (0.00%), invalid chksum: 0
+2/4/2023 -- 18:51:54 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+2/4/2023 -- 18:51:54 - <Info> - CPUs/cores online: 2
+2/4/2023 -- 18:51:54 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 18:51:54 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 18:51:54 - <Info> - dropped the caps for main thread
+2/4/2023 -- 18:51:54 - <Info> - fast output device (regular) initialized: fast.log
+2/4/2023 -- 18:51:54 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2023 -- 18:51:54 - <Info> - stats output device (regular) initialized: stats.log
+2/4/2023 -- 18:51:54 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 18:51:54 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+2/4/2023 -- 18:51:54 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+2/4/2023 -- 18:51:54 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2023 -- 18:51:54 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+2/4/2023 -- 18:51:54 - <Info> - Going to use 2 thread(s)
+2/4/2023 -- 18:51:54 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 18:51:54 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+2/4/2023 -- 18:51:54 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+2/4/2023 -- 18:51:54 - <Info> - All AFP capture threads are running.
+2/4/2023 -- 18:53:31 - <Notice> - Signal Received.  Stopping engine.
+2/4/2023 -- 18:53:31 - <Info> - time elapsed 96.909s
+2/4/2023 -- 18:53:32 - <Info> - Alerts: 0
+2/4/2023 -- 18:53:32 - <Info> - cleaning up signature grouping structure... complete
+2/4/2023 -- 18:53:32 - <Notice> - Stats for 'hp_core':  pkts: 75, drop: 0 (0.00%), invalid chksum: 0
+2/4/2023 -- 21:54:29 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+2/4/2023 -- 21:54:29 - <Info> - CPUs/cores online: 2
+2/4/2023 -- 21:54:30 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 21:54:30 - <Info> - Found an MTU of 1500 for 'hp_core'
+2/4/2023 -- 21:54:30 - <Info> - dropped the caps for main thread
+2/4/2023 -- 21:54:30 - <Info> - fast output device (regular) initialized: fast.log
+2/4/2023 -- 21:54:30 - <Info> - eve-log output device (regular) initialized: eve.json
+2/4/2023 -- 21:54:30 - <Info> - stats output device (regular) initialized: stats.log
+2/4/2023 -- 21:54:30 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 21:54:30 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+2/4/2023 -- 21:54:30 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+2/4/2023 -- 21:54:30 - <Info> - Threshold config parsed: 0 rule(s) found
+2/4/2023 -- 21:54:30 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+2/4/2023 -- 21:54:30 - <Info> - Going to use 2 thread(s)
+2/4/2023 -- 21:54:30 - <Info> - Running in live mode, activating unix socket
+2/4/2023 -- 21:54:30 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+2/4/2023 -- 21:54:30 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+2/4/2023 -- 21:54:30 - <Info> - All AFP capture threads are running.
+2/4/2023 -- 21:59:03 - <Notice> - Signal Received.  Stopping engine.
+2/4/2023 -- 21:59:04 - <Info> - time elapsed 273.908s
+2/4/2023 -- 21:59:05 - <Info> - Alerts: 0
+2/4/2023 -- 21:59:05 - <Info> - cleaning up signature grouping structure... complete
+2/4/2023 -- 21:59:05 - <Notice> - Stats for 'hp_core':  pkts: 303, drop: 0 (0.00%), invalid chksum: 0
+3/4/2023 -- 05:46:26 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+3/4/2023 -- 05:46:26 - <Info> - CPUs/cores online: 2
+3/4/2023 -- 05:46:27 - <Info> - Found an MTU of 1500 for 'hp_core'
+3/4/2023 -- 05:46:27 - <Info> - Found an MTU of 1500 for 'hp_core'
+3/4/2023 -- 05:46:27 - <Info> - dropped the caps for main thread
+3/4/2023 -- 05:46:27 - <Info> - fast output device (regular) initialized: fast.log
+3/4/2023 -- 05:46:27 - <Info> - eve-log output device (regular) initialized: eve.json
+3/4/2023 -- 05:46:27 - <Info> - stats output device (regular) initialized: stats.log
+3/4/2023 -- 05:46:27 - <Info> - Running in live mode, activating unix socket
+3/4/2023 -- 05:46:27 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+3/4/2023 -- 05:46:27 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+3/4/2023 -- 05:46:27 - <Info> - Threshold config parsed: 0 rule(s) found
+3/4/2023 -- 05:46:27 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+3/4/2023 -- 05:46:27 - <Info> - Going to use 2 thread(s)
+3/4/2023 -- 05:46:27 - <Info> - Running in live mode, activating unix socket
+3/4/2023 -- 05:46:27 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+3/4/2023 -- 05:46:27 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+3/4/2023 -- 05:46:27 - <Info> - All AFP capture threads are running.
+3/4/2023 -- 05:47:11 - <Notice> - Signal Received.  Stopping engine.
+3/4/2023 -- 05:47:12 - <Info> - time elapsed 44.856s
+3/4/2023 -- 05:47:13 - <Info> - Alerts: 0
+3/4/2023 -- 05:47:13 - <Info> - cleaning up signature grouping structure... complete
+3/4/2023 -- 05:47:13 - <Notice> - Stats for 'hp_core':  pkts: 88, drop: 0 (0.00%), invalid chksum: 0
+3/4/2023 -- 15:39:42 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+3/4/2023 -- 15:39:42 - <Info> - CPUs/cores online: 2
+3/4/2023 -- 15:39:42 - <Info> - Found an MTU of 1500 for 'hp_core'
+3/4/2023 -- 15:39:42 - <Info> - Found an MTU of 1500 for 'hp_core'
+3/4/2023 -- 15:39:42 - <Info> - dropped the caps for main thread
+3/4/2023 -- 15:39:42 - <Info> - fast output device (regular) initialized: fast.log
+3/4/2023 -- 15:39:42 - <Info> - eve-log output device (regular) initialized: eve.json
+3/4/2023 -- 15:39:42 - <Info> - stats output device (regular) initialized: stats.log
+3/4/2023 -- 15:39:42 - <Info> - Running in live mode, activating unix socket
+3/4/2023 -- 15:39:42 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+3/4/2023 -- 15:39:42 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+3/4/2023 -- 15:39:42 - <Info> - Threshold config parsed: 0 rule(s) found
+3/4/2023 -- 15:39:42 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+3/4/2023 -- 15:39:42 - <Info> - Going to use 2 thread(s)
+3/4/2023 -- 15:39:42 - <Info> - Running in live mode, activating unix socket
+3/4/2023 -- 15:39:42 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+3/4/2023 -- 15:39:42 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+3/4/2023 -- 15:39:43 - <Info> - All AFP capture threads are running.
+3/4/2023 -- 15:45:31 - <Notice> - Signal Received.  Stopping engine.
+3/4/2023 -- 15:45:31 - <Info> - time elapsed 348.725s
+3/4/2023 -- 15:45:32 - <Info> - Alerts: 0
+3/4/2023 -- 15:45:32 - <Info> - cleaning up signature grouping structure... complete
+3/4/2023 -- 15:45:32 - <Notice> - Stats for 'hp_core':  pkts: 406, drop: 0 (0.00%), invalid chksum: 0
+7/4/2023 -- 10:41:49 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+7/4/2023 -- 10:41:49 - <Info> - CPUs/cores online: 2
+7/4/2023 -- 10:41:50 - <Info> - Found an MTU of 1500 for 'hp_core'
+7/4/2023 -- 10:41:50 - <Info> - Found an MTU of 1500 for 'hp_core'
+7/4/2023 -- 10:41:50 - <Info> - dropped the caps for main thread
+7/4/2023 -- 10:41:50 - <Info> - fast output device (regular) initialized: fast.log
+7/4/2023 -- 10:41:50 - <Info> - eve-log output device (regular) initialized: eve.json
+7/4/2023 -- 10:41:50 - <Info> - stats output device (regular) initialized: stats.log
+7/4/2023 -- 10:41:50 - <Info> - Running in live mode, activating unix socket
+7/4/2023 -- 10:41:50 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+7/4/2023 -- 10:41:50 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+7/4/2023 -- 10:41:50 - <Info> - Threshold config parsed: 0 rule(s) found
+7/4/2023 -- 10:41:50 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+7/4/2023 -- 10:41:50 - <Info> - Going to use 2 thread(s)
+7/4/2023 -- 10:41:50 - <Info> - Running in live mode, activating unix socket
+7/4/2023 -- 10:41:50 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+7/4/2023 -- 10:41:50 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+7/4/2023 -- 10:41:50 - <Info> - All AFP capture threads are running.
+7/4/2023 -- 10:46:21 - <Notice> - Signal Received.  Stopping engine.
+7/4/2023 -- 10:46:21 - <Info> - time elapsed 271.257s
+7/4/2023 -- 10:46:22 - <Info> - Alerts: 0
+7/4/2023 -- 10:46:22 - <Info> - cleaning up signature grouping structure... complete
+7/4/2023 -- 10:46:22 - <Notice> - Stats for 'hp_core':  pkts: 42, drop: 0 (0.00%), invalid chksum: 0
+13/4/2023 -- 18:58:29 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+13/4/2023 -- 18:58:29 - <Info> - CPUs/cores online: 2
+13/4/2023 -- 18:58:29 - <Info> - Found an MTU of 1500 for 'hp_core'
+13/4/2023 -- 18:58:29 - <Info> - Found an MTU of 1500 for 'hp_core'
+13/4/2023 -- 18:58:29 - <Info> - dropped the caps for main thread
+13/4/2023 -- 18:58:29 - <Info> - fast output device (regular) initialized: fast.log
+13/4/2023 -- 18:58:29 - <Info> - eve-log output device (regular) initialized: eve.json
+13/4/2023 -- 18:58:29 - <Info> - stats output device (regular) initialized: stats.log
+13/4/2023 -- 18:58:29 - <Info> - Running in live mode, activating unix socket
+13/4/2023 -- 18:58:29 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+13/4/2023 -- 18:58:29 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+13/4/2023 -- 18:58:29 - <Info> - Threshold config parsed: 0 rule(s) found
+13/4/2023 -- 18:58:29 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+13/4/2023 -- 18:58:29 - <Info> - Going to use 2 thread(s)
+13/4/2023 -- 18:58:29 - <Info> - Running in live mode, activating unix socket
+13/4/2023 -- 18:58:29 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+13/4/2023 -- 18:58:29 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+13/4/2023 -- 18:58:29 - <Info> - All AFP capture threads are running.
+13/4/2023 -- 18:59:12 - <Notice> - Signal Received.  Stopping engine.
+13/4/2023 -- 18:59:12 - <Info> - time elapsed 42.853s
+13/4/2023 -- 18:59:13 - <Info> - Alerts: 0
+13/4/2023 -- 18:59:13 - <Info> - cleaning up signature grouping structure... complete
+13/4/2023 -- 18:59:13 - <Notice> - Stats for 'hp_core':  pkts: 15, drop: 0 (0.00%), invalid chksum: 0
+19/4/2023 -- 14:48:20 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+19/4/2023 -- 14:48:20 - <Info> - CPUs/cores online: 2
+19/4/2023 -- 14:48:20 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 14:48:20 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 14:48:20 - <Info> - dropped the caps for main thread
+19/4/2023 -- 14:48:20 - <Info> - fast output device (regular) initialized: fast.log
+19/4/2023 -- 14:48:20 - <Info> - eve-log output device (regular) initialized: eve.json
+19/4/2023 -- 14:48:20 - <Info> - stats output device (regular) initialized: stats.log
+19/4/2023 -- 14:48:20 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 14:48:20 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+19/4/2023 -- 14:48:20 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+19/4/2023 -- 14:48:20 - <Info> - Threshold config parsed: 0 rule(s) found
+19/4/2023 -- 14:48:20 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+19/4/2023 -- 14:48:20 - <Info> - Going to use 2 thread(s)
+19/4/2023 -- 14:48:20 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 14:48:20 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+19/4/2023 -- 14:48:20 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+19/4/2023 -- 14:48:20 - <Info> - All AFP capture threads are running.
+19/4/2023 -- 16:51:10 - <Notice> - Signal Received.  Stopping engine.
+19/4/2023 -- 16:51:10 - <Info> - time elapsed 7370.178s
+19/4/2023 -- 16:51:11 - <Info> - Alerts: 0
+19/4/2023 -- 16:51:11 - <Info> - cleaning up signature grouping structure... complete
+19/4/2023 -- 16:51:11 - <Notice> - Stats for 'hp_core':  pkts: 226, drop: 0 (0.00%), invalid chksum: 0
+19/4/2023 -- 16:52:01 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+19/4/2023 -- 16:52:01 - <Info> - CPUs/cores online: 2
+19/4/2023 -- 16:52:02 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 16:52:02 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 16:52:02 - <Info> - dropped the caps for main thread
+19/4/2023 -- 16:52:02 - <Info> - fast output device (regular) initialized: fast.log
+19/4/2023 -- 16:52:02 - <Info> - eve-log output device (regular) initialized: eve.json
+19/4/2023 -- 16:52:02 - <Info> - stats output device (regular) initialized: stats.log
+19/4/2023 -- 16:52:02 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 16:52:02 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+19/4/2023 -- 16:52:02 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+19/4/2023 -- 16:52:02 - <Info> - Threshold config parsed: 0 rule(s) found
+19/4/2023 -- 16:52:02 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+19/4/2023 -- 16:52:02 - <Info> - Going to use 2 thread(s)
+19/4/2023 -- 16:52:02 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 16:52:02 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+19/4/2023 -- 16:52:02 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+19/4/2023 -- 16:52:02 - <Info> - All AFP capture threads are running.
+19/4/2023 -- 16:52:51 - <Notice> - Signal Received.  Stopping engine.
+19/4/2023 -- 16:52:52 - <Info> - time elapsed 50.151s
+19/4/2023 -- 16:52:53 - <Info> - Alerts: 0
+19/4/2023 -- 16:52:53 - <Info> - cleaning up signature grouping structure... complete
+19/4/2023 -- 16:52:53 - <Notice> - Stats for 'hp_core':  pkts: 24, drop: 0 (0.00%), invalid chksum: 0
+19/4/2023 -- 16:53:13 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+19/4/2023 -- 16:53:13 - <Info> - CPUs/cores online: 2
+19/4/2023 -- 16:53:13 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 16:53:13 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 16:53:13 - <Info> - dropped the caps for main thread
+19/4/2023 -- 16:53:13 - <Info> - fast output device (regular) initialized: fast.log
+19/4/2023 -- 16:53:13 - <Info> - eve-log output device (regular) initialized: eve.json
+19/4/2023 -- 16:53:13 - <Info> - stats output device (regular) initialized: stats.log
+19/4/2023 -- 16:53:13 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 16:53:13 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+19/4/2023 -- 16:53:13 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+19/4/2023 -- 16:53:13 - <Info> - Threshold config parsed: 0 rule(s) found
+19/4/2023 -- 16:53:13 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+19/4/2023 -- 16:53:13 - <Info> - Going to use 2 thread(s)
+19/4/2023 -- 16:53:13 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 16:53:13 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+19/4/2023 -- 16:53:13 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+19/4/2023 -- 16:53:13 - <Info> - All AFP capture threads are running.
+19/4/2023 -- 16:55:23 - <Notice> - Signal Received.  Stopping engine.
+19/4/2023 -- 16:55:23 - <Info> - time elapsed 130.307s
+19/4/2023 -- 16:55:24 - <Info> - Alerts: 0
+19/4/2023 -- 16:55:24 - <Info> - cleaning up signature grouping structure... complete
+19/4/2023 -- 16:55:24 - <Notice> - Stats for 'hp_core':  pkts: 20, drop: 0 (0.00%), invalid chksum: 0
+19/4/2023 -- 16:55:56 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+19/4/2023 -- 16:55:56 - <Info> - CPUs/cores online: 2
+19/4/2023 -- 16:55:56 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 16:55:56 - <Info> - Found an MTU of 1500 for 'hp_core'
+19/4/2023 -- 16:55:56 - <Info> - dropped the caps for main thread
+19/4/2023 -- 16:55:56 - <Info> - fast output device (regular) initialized: fast.log
+19/4/2023 -- 16:55:56 - <Info> - eve-log output device (regular) initialized: eve.json
+19/4/2023 -- 16:55:56 - <Info> - stats output device (regular) initialized: stats.log
+19/4/2023 -- 16:55:56 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 16:55:56 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+19/4/2023 -- 16:55:56 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+19/4/2023 -- 16:55:56 - <Info> - Threshold config parsed: 0 rule(s) found
+19/4/2023 -- 16:55:56 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+19/4/2023 -- 16:55:56 - <Info> - Going to use 2 thread(s)
+19/4/2023 -- 16:55:56 - <Info> - Running in live mode, activating unix socket
+19/4/2023 -- 16:55:56 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+19/4/2023 -- 16:55:56 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+19/4/2023 -- 16:55:56 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:12:55 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:12:56 - <Info> - time elapsed 62219.445s
+20/4/2023 -- 10:12:57 - <Info> - Alerts: 0
+20/4/2023 -- 10:12:57 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:12:57 - <Notice> - Stats for 'hp_core':  pkts: 1754, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:13:29 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:13:29 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:13:29 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:13:29 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:13:29 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:13:29 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:13:29 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:13:29 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:13:29 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:13:29 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:13:29 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:13:29 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:13:29 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:13:29 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:13:29 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:13:29 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:13:29 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:13:29 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:24:45 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:24:45 - <Info> - time elapsed 675.983s
+20/4/2023 -- 10:24:46 - <Info> - Alerts: 0
+20/4/2023 -- 10:24:46 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:24:46 - <Notice> - Stats for 'hp_core':  pkts: 39, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:25:18 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:25:18 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:25:18 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:25:18 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:25:18 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:25:18 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:25:18 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:25:18 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:25:18 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:25:18 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:25:18 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:25:18 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:25:18 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:25:18 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:25:18 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:25:18 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:25:18 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:25:18 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:29:28 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:29:28 - <Info> - time elapsed 250.536s
+20/4/2023 -- 10:29:29 - <Info> - Alerts: 0
+20/4/2023 -- 10:29:30 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:29:30 - <Notice> - Stats for 'hp_core':  pkts: 28, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:29:58 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:29:58 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:29:58 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:29:58 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:29:59 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:29:59 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:29:59 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:29:59 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:29:59 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:29:59 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:29:59 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:29:59 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:29:59 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:29:59 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:29:59 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:29:59 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:29:59 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:29:59 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:38:35 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:38:36 - <Info> - time elapsed 517.045s
+20/4/2023 -- 10:38:37 - <Info> - Alerts: 0
+20/4/2023 -- 10:38:37 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:38:37 - <Notice> - Stats for 'hp_core':  pkts: 36, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:39:04 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:39:04 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:39:05 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:39:05 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:39:05 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:39:05 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:39:05 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:39:05 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:39:05 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:39:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:39:05 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:39:05 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:39:05 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:39:05 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:39:05 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:39:05 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:39:05 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:39:05 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:41:31 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:41:31 - <Info> - time elapsed 146.389s
+20/4/2023 -- 10:41:32 - <Info> - Alerts: 0
+20/4/2023 -- 10:41:32 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:41:32 - <Notice> - Stats for 'hp_core':  pkts: 24, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:42:07 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:42:07 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:42:08 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:42:08 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:42:08 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:42:08 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:42:08 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:42:08 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:42:08 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:42:08 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:42:08 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:42:08 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:42:08 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:42:08 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:42:08 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:42:08 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:42:08 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:42:08 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:45:15 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:45:15 - <Info> - time elapsed 187.759s
+20/4/2023 -- 10:45:16 - <Info> - Alerts: 0
+20/4/2023 -- 10:45:17 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:45:17 - <Notice> - Stats for 'hp_core':  pkts: 26, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:45:48 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:45:48 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:45:48 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:45:48 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:45:48 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:45:48 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:45:48 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:45:48 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:45:48 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:45:48 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:45:48 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:45:48 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:45:48 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:45:48 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:45:48 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:45:48 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:45:48 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:45:48 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 10:47:18 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 10:47:19 - <Info> - time elapsed 90.938s
+20/4/2023 -- 10:47:20 - <Info> - Alerts: 0
+20/4/2023 -- 10:47:20 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 10:47:20 - <Notice> - Stats for 'hp_core':  pkts: 18, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 10:47:53 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 10:47:53 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 10:47:53 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:47:53 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 10:47:53 - <Info> - dropped the caps for main thread
+20/4/2023 -- 10:47:53 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 10:47:53 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 10:47:53 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 10:47:53 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:47:53 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 10:47:53 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 10:47:53 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 10:47:53 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 10:47:53 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 10:47:53 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 10:47:53 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 10:47:53 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 10:47:53 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 13:11:02 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 13:11:02 - <Info> - time elapsed 8589.093s
+20/4/2023 -- 13:11:03 - <Info> - Alerts: 0
+20/4/2023 -- 13:11:03 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 13:11:03 - <Notice> - Stats for 'hp_core':  pkts: 251, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 13:11:43 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 13:11:43 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 13:11:43 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 13:11:43 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 13:11:43 - <Info> - dropped the caps for main thread
+20/4/2023 -- 13:11:43 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 13:11:43 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 13:11:43 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 13:11:43 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 13:11:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 13:11:43 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 13:11:43 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 13:11:43 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 13:11:43 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 13:11:43 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 13:11:43 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 13:11:43 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 13:11:43 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 13:14:06 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 13:14:06 - <Info> - time elapsed 143.015s
+20/4/2023 -- 13:14:07 - <Info> - Alerts: 0
+20/4/2023 -- 13:14:08 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 13:14:08 - <Notice> - Stats for 'hp_core':  pkts: 19, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 13:14:39 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 13:14:39 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 13:14:39 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 13:14:39 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 13:14:39 - <Info> - dropped the caps for main thread
+20/4/2023 -- 13:14:39 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 13:14:39 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 13:14:39 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 13:14:39 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 13:14:39 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 13:14:39 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 13:14:39 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 13:14:39 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 13:14:39 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 13:14:39 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 13:14:39 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 13:14:39 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 13:14:39 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 16:57:38 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 16:57:38 - <Info> - time elapsed 13379.068s
+20/4/2023 -- 16:57:40 - <Info> - Alerts: 0
+20/4/2023 -- 16:57:40 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 16:57:40 - <Notice> - Stats for 'hp_core':  pkts: 382, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 16:58:02 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 16:58:02 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 16:58:03 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 16:58:03 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 16:58:03 - <Info> - dropped the caps for main thread
+20/4/2023 -- 16:58:03 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 16:58:03 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 16:58:03 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 16:58:03 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 16:58:03 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 16:58:03 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 16:58:03 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 16:58:03 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 16:58:03 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 16:58:03 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 16:58:03 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 16:58:03 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 16:58:03 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 17:01:18 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 17:01:19 - <Info> - time elapsed 195.762s
+20/4/2023 -- 17:01:20 - <Info> - Alerts: 0
+20/4/2023 -- 17:01:20 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 17:01:20 - <Notice> - Stats for 'hp_core':  pkts: 23, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 17:01:58 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 17:01:58 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 17:01:58 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 17:01:58 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 17:01:59 - <Info> - dropped the caps for main thread
+20/4/2023 -- 17:01:59 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 17:01:59 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 17:01:59 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 17:01:59 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 17:01:59 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 17:01:59 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 17:01:59 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 17:01:59 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 17:01:59 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 17:01:59 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 17:01:59 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 17:01:59 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 17:01:59 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 17:05:37 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 17:05:38 - <Info> - time elapsed 219.136s
+20/4/2023 -- 17:05:39 - <Info> - Alerts: 0
+20/4/2023 -- 17:05:39 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 17:05:39 - <Notice> - Stats for 'hp_core':  pkts: 22, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 17:05:56 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 17:05:56 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 17:05:57 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 17:05:57 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 17:05:57 - <Info> - dropped the caps for main thread
+20/4/2023 -- 17:05:57 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 17:05:57 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 17:05:57 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 17:05:57 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 17:05:57 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 17:05:57 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 17:05:57 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 17:05:57 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 17:05:57 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 17:05:57 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 17:05:57 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 17:05:57 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 17:05:57 - <Info> - All AFP capture threads are running.
+20/4/2023 -- 17:14:34 - <Notice> - Signal Received.  Stopping engine.
+20/4/2023 -- 17:14:34 - <Info> - time elapsed 517.037s
+20/4/2023 -- 17:14:35 - <Info> - Alerts: 0
+20/4/2023 -- 17:14:35 - <Info> - cleaning up signature grouping structure... complete
+20/4/2023 -- 17:14:35 - <Notice> - Stats for 'hp_core':  pkts: 33, drop: 0 (0.00%), invalid chksum: 0
+20/4/2023 -- 17:20:47 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+20/4/2023 -- 17:20:47 - <Info> - CPUs/cores online: 2
+20/4/2023 -- 17:20:47 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 17:20:47 - <Info> - Found an MTU of 1500 for 'hp_core'
+20/4/2023 -- 17:20:47 - <Info> - dropped the caps for main thread
+20/4/2023 -- 17:20:47 - <Info> - fast output device (regular) initialized: fast.log
+20/4/2023 -- 17:20:47 - <Info> - eve-log output device (regular) initialized: eve.json
+20/4/2023 -- 17:20:47 - <Info> - stats output device (regular) initialized: stats.log
+20/4/2023 -- 17:20:47 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 17:20:47 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+20/4/2023 -- 17:20:47 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+20/4/2023 -- 17:20:47 - <Info> - Threshold config parsed: 0 rule(s) found
+20/4/2023 -- 17:20:47 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+20/4/2023 -- 17:20:47 - <Info> - Going to use 2 thread(s)
+20/4/2023 -- 17:20:47 - <Info> - Running in live mode, activating unix socket
+20/4/2023 -- 17:20:47 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+20/4/2023 -- 17:20:47 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+20/4/2023 -- 17:20:47 - <Info> - All AFP capture threads are running.
+21/4/2023 -- 08:21:05 - <Notice> - Signal Received.  Stopping engine.
+21/4/2023 -- 08:21:05 - <Info> - time elapsed 54018.207s
+21/4/2023 -- 08:21:06 - <Info> - Alerts: 0
+21/4/2023 -- 08:21:06 - <Info> - cleaning up signature grouping structure... complete
+21/4/2023 -- 08:21:06 - <Notice> - Stats for 'hp_core':  pkts: 1477, drop: 0 (0.00%), invalid chksum: 0
+21/4/2023 -- 08:25:16 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+21/4/2023 -- 08:25:16 - <Info> - CPUs/cores online: 2
+21/4/2023 -- 08:25:17 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:25:17 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:25:17 - <Info> - dropped the caps for main thread
+21/4/2023 -- 08:25:17 - <Info> - fast output device (regular) initialized: fast.log
+21/4/2023 -- 08:25:17 - <Info> - eve-log output device (regular) initialized: eve.json
+21/4/2023 -- 08:25:17 - <Info> - stats output device (regular) initialized: stats.log
+21/4/2023 -- 08:25:17 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:25:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+21/4/2023 -- 08:25:17 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/4/2023 -- 08:25:17 - <Info> - Threshold config parsed: 0 rule(s) found
+21/4/2023 -- 08:25:17 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/4/2023 -- 08:25:17 - <Info> - Going to use 2 thread(s)
+21/4/2023 -- 08:25:17 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:25:17 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+21/4/2023 -- 08:25:17 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+21/4/2023 -- 08:25:17 - <Info> - All AFP capture threads are running.
+21/4/2023 -- 08:43:54 - <Notice> - Signal Received.  Stopping engine.
+21/4/2023 -- 08:43:54 - <Info> - time elapsed 1117.488s
+21/4/2023 -- 08:43:55 - <Info> - Alerts: 0
+21/4/2023 -- 08:43:55 - <Info> - cleaning up signature grouping structure... complete
+21/4/2023 -- 08:43:55 - <Notice> - Stats for 'hp_core':  pkts: 49, drop: 0 (0.00%), invalid chksum: 0
+21/4/2023 -- 08:45:07 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+21/4/2023 -- 08:45:07 - <Info> - CPUs/cores online: 2
+21/4/2023 -- 08:45:07 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:45:07 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:45:07 - <Info> - dropped the caps for main thread
+21/4/2023 -- 08:45:07 - <Info> - fast output device (regular) initialized: fast.log
+21/4/2023 -- 08:45:07 - <Info> - eve-log output device (regular) initialized: eve.json
+21/4/2023 -- 08:45:07 - <Info> - stats output device (regular) initialized: stats.log
+21/4/2023 -- 08:45:07 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:45:07 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+21/4/2023 -- 08:45:07 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/4/2023 -- 08:45:07 - <Info> - Threshold config parsed: 0 rule(s) found
+21/4/2023 -- 08:45:07 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/4/2023 -- 08:45:07 - <Info> - Going to use 2 thread(s)
+21/4/2023 -- 08:45:07 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:45:07 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+21/4/2023 -- 08:45:07 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+21/4/2023 -- 08:45:07 - <Info> - All AFP capture threads are running.
+21/4/2023 -- 08:47:38 - <Notice> - Signal Received.  Stopping engine.
+21/4/2023 -- 08:47:39 - <Info> - time elapsed 151.679s
+21/4/2023 -- 08:47:40 - <Info> - Alerts: 0
+21/4/2023 -- 08:47:40 - <Info> - cleaning up signature grouping structure... complete
+21/4/2023 -- 08:47:40 - <Notice> - Stats for 'hp_core':  pkts: 23, drop: 0 (0.00%), invalid chksum: 0
+21/4/2023 -- 08:48:32 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+21/4/2023 -- 08:48:32 - <Info> - CPUs/cores online: 2
+21/4/2023 -- 08:48:32 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:48:32 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:48:32 - <Info> - dropped the caps for main thread
+21/4/2023 -- 08:48:32 - <Info> - fast output device (regular) initialized: fast.log
+21/4/2023 -- 08:48:32 - <Info> - eve-log output device (regular) initialized: eve.json
+21/4/2023 -- 08:48:32 - <Info> - stats output device (regular) initialized: stats.log
+21/4/2023 -- 08:48:32 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:48:32 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+21/4/2023 -- 08:48:32 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/4/2023 -- 08:48:32 - <Info> - Threshold config parsed: 0 rule(s) found
+21/4/2023 -- 08:48:32 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/4/2023 -- 08:48:32 - <Info> - Going to use 2 thread(s)
+21/4/2023 -- 08:48:32 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:48:32 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+21/4/2023 -- 08:48:32 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+21/4/2023 -- 08:48:32 - <Info> - All AFP capture threads are running.
+21/4/2023 -- 08:50:10 - <Notice> - Signal Received.  Stopping engine.
+21/4/2023 -- 08:50:11 - <Info> - time elapsed 98.278s
+21/4/2023 -- 08:50:12 - <Info> - Alerts: 0
+21/4/2023 -- 08:50:12 - <Info> - cleaning up signature grouping structure... complete
+21/4/2023 -- 08:50:12 - <Notice> - Stats for 'hp_core':  pkts: 18, drop: 0 (0.00%), invalid chksum: 0
+21/4/2023 -- 08:51:12 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+21/4/2023 -- 08:51:12 - <Info> - CPUs/cores online: 2
+21/4/2023 -- 08:51:12 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:51:12 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 08:51:12 - <Info> - dropped the caps for main thread
+21/4/2023 -- 08:51:12 - <Info> - fast output device (regular) initialized: fast.log
+21/4/2023 -- 08:51:12 - <Info> - eve-log output device (regular) initialized: eve.json
+21/4/2023 -- 08:51:12 - <Info> - stats output device (regular) initialized: stats.log
+21/4/2023 -- 08:51:12 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:51:12 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+21/4/2023 -- 08:51:12 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/4/2023 -- 08:51:12 - <Info> - Threshold config parsed: 0 rule(s) found
+21/4/2023 -- 08:51:12 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/4/2023 -- 08:51:12 - <Info> - Going to use 2 thread(s)
+21/4/2023 -- 08:51:12 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 08:51:12 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+21/4/2023 -- 08:51:12 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+21/4/2023 -- 08:51:12 - <Info> - All AFP capture threads are running.
+21/4/2023 -- 09:06:34 - <Notice> - Signal Received.  Stopping engine.
+21/4/2023 -- 09:06:34 - <Info> - time elapsed 922.437s
+21/4/2023 -- 09:06:35 - <Info> - Alerts: 0
+21/4/2023 -- 09:06:36 - <Info> - cleaning up signature grouping structure... complete
+21/4/2023 -- 09:06:36 - <Notice> - Stats for 'hp_core':  pkts: 47, drop: 0 (0.00%), invalid chksum: 0
+21/4/2023 -- 09:07:15 - <Notice> - This is Suricata version 6.0.10 RELEASE running in SYSTEM mode
+21/4/2023 -- 09:07:15 - <Info> - CPUs/cores online: 2
+21/4/2023 -- 09:07:15 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 09:07:15 - <Info> - Found an MTU of 1500 for 'hp_core'
+21/4/2023 -- 09:07:15 - <Info> - dropped the caps for main thread
+21/4/2023 -- 09:07:15 - <Info> - fast output device (regular) initialized: fast.log
+21/4/2023 -- 09:07:15 - <Info> - eve-log output device (regular) initialized: eve.json
+21/4/2023 -- 09:07:15 - <Info> - stats output device (regular) initialized: stats.log
+21/4/2023 -- 09:07:15 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 09:07:15 - <Warning> - [ERRCODE: SC_ERR_NO_RULES(42)] - No rule files match the pattern /var/lib/suricata/rules/suricata.rules
+21/4/2023 -- 09:07:15 - <Warning> - [ERRCODE: SC_ERR_NO_RULES_LOADED(43)] - 1 rule files specified, but no rules were loaded!
+21/4/2023 -- 09:07:15 - <Info> - Threshold config parsed: 0 rule(s) found
+21/4/2023 -- 09:07:15 - <Info> - 0 signatures processed. 0 are IP-only rules, 0 are inspecting packet payload, 0 inspect application layer, 0 are decoder event only
+21/4/2023 -- 09:07:15 - <Info> - Going to use 2 thread(s)
+21/4/2023 -- 09:07:15 - <Info> - Running in live mode, activating unix socket
+21/4/2023 -- 09:07:15 - <Info> - Using unix socket file '/var/run/suricata/suricata-command.socket'
+21/4/2023 -- 09:07:15 - <Notice> - all 2 packet processing threads, 4 management threads initialized, engine started.
+21/4/2023 -- 09:07:15 - <Info> - All AFP capture threads are running.
+22/4/2023 -- 12:31:29 - <Notice> - Signal Received.  Stopping engine.
+22/4/2023 -- 12:31:30 - <Info> - time elapsed 98654.984s
+22/4/2023 -- 12:31:31 - <Info> - Alerts: 0
+22/4/2023 -- 12:31:31 - <Info> - cleaning up signature grouping structure... complete
+22/4/2023 -- 12:31:31 - <Notice> - Stats for 'hp_core':  pkts: 5245, drop: 0 (0.00%), invalid chksum: 0

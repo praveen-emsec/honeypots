@@ -1,0 +1,95 @@
+version: '3.1'
+
+services:
+  honeypots:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: praveen_honeypot_core
+    restart: always
+    cap_add:
+      - NET_ADMIN
+    networks:
+      - backend
+      - frontend
+    ports:
+      - '80:80'
+      - '102:102'
+      - '502:502'
+
+  agent:
+    build:
+      context: .
+      dockerfile: /root/Honeypot30-main/IT_Honeypots/agent/agent_dockerfile
+    container_name: honeypot_agent
+    restart: always
+    networks:
+      - elk
+    ports:
+      - '9090:9090'
+
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.7.0
+    networks:
+      - elk
+    depends_on:
+      - honeypots
+    environment:
+      cluster.name: elk
+      network.host: 0.0.0.0
+      discovery.type: single-node
+      ES_JAVA_OPTS: "-Xms256m -Xmx256m"
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:7.7.0
+    command: ["--strict.perms=false", "-c", "/usr/share/filebeat/filebeat.yml"]
+    volumes:
+      - ./suricata/logs:/var/log/suricata:ro
+      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+    networks:
+      - elk
+    environment:
+      LS_JAVA_OPTS: "-Xms256m -Xmx256m"
+    restart: always
+    depends_on:
+      - kibana
+      - suricata
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:7.7.0
+    networks:
+      - elk
+    environment:
+      server.name: "kibana"
+      server.host: "0"
+      elasticsearch.hosts: '[ "http://elasticsearch:9200" ]'
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+
+  suricata:
+    image: jasonish/suricata:latest
+    command: -i hp_core
+    network_mode: host
+    cap_add:
+      - NET_ADMIN
+      - SYS_NICE
+    volumes:
+      - ./suricata/logs:/var/log/suricata
+      - ./suricata/rules:/var/lib/suricata
+      - ./suricata/config:/etc/suricata
+    depends_on:
+      - elasticsearch
+
+
+networks:
+  frontend:
+    internal: false
+    driver: bridge
+    driver_opts:
+      com.docker.network.bridge.name: hp_core
+  backend:
+    internal: true
+  elk:
