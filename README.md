@@ -23,7 +23,7 @@ $ sudo apt-get install libcppunit-dev libcppunit-doc
 $ sudo apt-get install libncurses5-dev libncursesw5-dev
 2. Pulling GridPot from GitHub
 $ sudo apt install git
-$ git clone [36]
+$ git clone https://github.com/praveen-emsec/honeypots/gridpot.git
 3. Setup Conpot
 $ cd gridpot/conpot/
 $ conpot/ sudo make clean (if rebuilding)
