@@ -1,8 +1,8 @@
 # honeypots
-pyhton 3.8.10 updated version of gridpot
+python 3.8.10 updated version of gridpot
 
-Gridpot 
-A. GRIDPOT SETUP
+## Gridpot 
+### A. GRIDPOT SETUP
 This appendix summarizes the steps required to install GridPot. We changed our
 virtual-machine network setting to use NAT during this setup.
 1. Installing dependencies (from the command line)
@@ -39,7 +39,7 @@ $ cd ../libiec61850
 $ make
 $ sudo make INSTALL_PREFIX=/usr/local install
 
-B. RUNNING GRIDPOT
+### B. RUNNING GRIDPOT
 This appendix summarizes the steps required to clear and enable logging from both
 the honeypot and modeling layers, enable packet captures, and run GridPot.
 0. Save & clear Conpot log
